@@ -2,12 +2,15 @@
 A template for creating plugins for the app HTML Wave
 
 HTML Wave is written in C# using the windows forms framework.
-You can write and release your own plugin for HTML Wave easily.
-Download the code, open it using Microsoft Visual studio
-Change the namespace to the name of your plugin
-open the file Class1.cs
-Write your main plugin code inside the DoWork method.
+## You can write and release your own plugin for HTML Wave easily.
+- Download the code, open it using Microsoft Visual studio
+- Change the namespace to the name of your plugin
+- open the file Class1.cs
+- Write your main plugin code inside the DoWork method.
+ -DoWork is the main method that gets called from the app
+ -use the "pm" instanceof the ManagerInterface class to call functions from the main form. these are the functions that you can call:
 
+```
         pm.InsertHTMLAtSelection(string htmlText); // Inserts HTML code at current selection in textarea of current tab
         pm.AddToHtmlHead(string htmlText); // Adds code to <head> section in textarea of current tab
         pm.AddToHtmlStyleTag(string htmlText); // Adds code inside <style> tag in textarea of current tab
@@ -33,3 +36,4 @@ Write your main plugin code inside the DoWork method.
         pm.AddItemToMenuStrip(ToolStripMenuItem tsi, string menuName); //  Adds a new item to the menu specified (File/Edit/View/Insert/Tools/Help)
         pm.GetPreviewBrowserInstance(); // Returns the preview WebBrowser control
         pm.isVisualeditor(); // Returns whether the app is currently displaying the visual editor
+```
