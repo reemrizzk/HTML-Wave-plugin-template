@@ -1,6 +1,13 @@
 # HTML-Wave-plugin-template
 A template for creating plugins for the app HTML Wave
 
+HTML Wave is written in C# using the windows forms framework.
+You can write and release your own plugin for HTML Wave easily.
+Download the code, open it using Microsoft Visual studio
+Change the namespace to the name of your plugin
+open the file Class1.cs
+Write your main plugin code inside the DoWork method.
+
         pm.InsertHTMLAtSelection(string htmlText); // Inserts HTML code at current selection in textarea of current tab
         pm.AddToHtmlHead(string htmlText); // Adds code to <head> section in textarea of current tab
         pm.AddToHtmlStyleTag(string htmlText); // Adds code inside <style> tag in textarea of current tab
