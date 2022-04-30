@@ -1,9 +1,0 @@
-c:\users\reem\documents\visual studio 2013\Projects\PluginTemplate\PluginTemplate\bin\Debug\PluginTemplate.dll
-c:\users\reem\documents\visual studio 2013\Projects\PluginTemplate\PluginTemplate\bin\Debug\PluginTemplate.pdb
-c:\users\reem\documents\visual studio 2013\Projects\PluginTemplate\PluginTemplate\bin\Debug\PluginLibrary.dll
-c:\users\reem\documents\visual studio 2013\Projects\PluginTemplate\PluginTemplate\bin\Debug\ScintillaNET.dll
-c:\users\reem\documents\visual studio 2013\Projects\PluginTemplate\PluginTemplate\bin\Debug\PluginLibrary.pdb
-c:\users\reem\documents\visual studio 2013\Projects\PluginTemplate\PluginTemplate\bin\Debug\ScintillaNET.xml
-c:\users\reem\documents\visual studio 2013\Projects\PluginTemplate\PluginTemplate\obj\Debug\PluginTemplate.csprojResolveAssemblyReference.cache
-c:\users\reem\documents\visual studio 2013\Projects\PluginTemplate\PluginTemplate\obj\Debug\PluginTemplate.dll
-c:\users\reem\documents\visual studio 2013\Projects\PluginTemplate\PluginTemplate\obj\Debug\PluginTemplate.pdb
