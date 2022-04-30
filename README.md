@@ -8,7 +8,7 @@ HTML Wave is written in C# using the windows forms framework.
 - open the file Class1.cs
 - Write your main plugin code inside the DoWork method.
  -DoWork is the main method that gets called from the app
- -use the "pm" instanceof the ManagerInterface class to call functions from the main form. these are the functions that you can call:
+ -use the "pm" instance of the ManagerInterface class to call functions from the main form. these are the functions that you can call:
 
 ```c#
 pm.InsertHTMLAtSelection(string htmlText); // Inserts HTML code at current selection in textarea of current tab
