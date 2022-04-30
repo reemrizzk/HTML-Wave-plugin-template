@@ -10,7 +10,7 @@ HTML Wave is written in C# using the windows forms framework.
  -DoWork is the main method that gets called from the app
  -use the "pm" instanceof the ManagerInterface class to call functions from the main form. these are the functions that you can call:
 
-```
+```c#
 pm.InsertHTMLAtSelection(string htmlText); // Inserts HTML code at current selection in textarea of current tab
 pm.AddToHtmlHead(string htmlText); // Adds code to <head> section in textarea of current tab
 pm.AddToHtmlStyleTag(string htmlText); // Adds code inside <style> tag in textarea of current tab
