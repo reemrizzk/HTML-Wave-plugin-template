@@ -24,11 +24,11 @@ pm.GetAllTextareas();  // Returns a List<Scintilla> of all Scintilla textarea co
 pm.CreateNewTab(string fileName, bool isFileOpened, string fileType);  // Creates a new tab
 pm.CopyIfOutsideProjectFolder(string fileUrl, string folderToCopyTo);  // Copies a file to a folder in project directory if the file is not already in the project's directory
 pm.GetCurrentProjectNameIfExists(); // Gets the project name of the file in the current tab, if its from a project
-pm.GetCurrentFileName(); //Gets the file path of the file in the current tab, if exists
-pm.SetCurrentFileName(string newFileName);  //Changes the file path of the file in the current tab
-pm.GetCurrentFileType();  //Gets the type of the file in the current tab
-pm.SetCurrentFiletype(string newFileType);  //Changes the type of the file in the current tab
-pm.OpenNewFile(); //  Opens the OpenFileDialog to open a file
+pm.GetCurrentFileName(); // Gets the file path of the file in the current tab, if exists
+pm.SetCurrentFileName(string newFileName);  // Changes the file path of the file in the current tab
+pm.GetCurrentFileType();  // Gets the type of the file in the current tab
+pm.SetCurrentFiletype(string newFileType);  // Changes the type of the file in the current tab
+pm.OpenNewFile(); // Opens the OpenFileDialog to open a file
 pm.SaveCurrentFile();  // Saves the current file
 pm.CallTabIndexChangedEvent();  // Calls the TabIndexChanged event
 pm.GetTheme();  // Gets the current theme of the application (Light/Dark)
