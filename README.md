@@ -36,7 +36,7 @@ pm.AddItemToToolStrip(ToolStripItem tsi); //  Adds a new item to the toolbar
 pm.AddItemToStatusStrip(ToolStripStatusLabel tssl);  // Adds a new item to the status bar on the bottom of the application
 pm.AddItemToMenuStrip(ToolStripMenuItem tsi, string menuName); //  Adds a new menu item to the menu specified (File/Edit/View/Insert/Tools/Help) or submenu (New/Format/Form) or toolstrip dropdown (NewToolStrip/FormatToolStrip/FormToolStrip/AttachToolStrip)
 pm.GetPreviewBrowserInstance(); // Returns the preview WebBrowser control
-WebBrowser GetVisualEditor(); // Returns the design browser control
+pm.GetVisualEditor(); // Returns the design WebBrowser control
 pm.isVisualeditor(); // Returns whether the app is currently displaying the visual editor
 pm.GetColorFromDialog(); // Opens color dialog and returns the color in hex format
 ```
