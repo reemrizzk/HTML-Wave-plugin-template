@@ -26,11 +26,11 @@ pm.CopyIfOutsideProjectFolder(string fileUrl, string folderToCopyTo);  // Copies
 pm.GetCurrentProjectNameIfExists(); // Gets the project name of the file in the current tab, if its from a project
 pm.GetCurrentFileName(); // Gets the file path of the file in the current tab, if exists
 pm.SetCurrentFileName(string newFileName);  // Changes the file path of the file in the current tab
-pm.GetCurrentFileType();  // Gets the type of the file in the current tab
-pm.SetCurrentFiletype(string newFileType);  // Changes the type of the file in the current tab
+pm.GetCurrentFileType(); // Gets the type of the file in the current tab
+pm.SetCurrentFiletype(string newFileType); // Changes the type of the file in the current tab
 pm.OpenNewFile(); // Opens the OpenFileDialog to open a file
-pm.SaveCurrentFile();  // Saves the current file
-pm.CallTabIndexChangedEvent();  // Calls the TabIndexChanged event
+pm.SaveCurrentFile(); // Saves the current file
+pm.CallTabIndexChangedEvent(); // Calls the TabIndexChanged event
 pm.GetTheme();  // Gets the current theme of the application (Light/Dark)
 pm.AddItemToToolStrip(ToolStripItem tsi); //  Adds a new item to the toolbar
 pm.AddItemToStatusStrip(ToolStripStatusLabel tssl);  // Adds a new item to the status bar on the bottom of the application
@@ -39,4 +39,10 @@ pm.GetPreviewBrowserInstance(); // Returns the preview WebBrowser control
 pm.GetVisualEditor(); // Returns the design WebBrowser control
 pm.isVisualeditor(); // Returns whether the app is currently displaying the visual editor
 pm.GetColorFromDialog(); // Opens color dialog and returns the color in hex format
+pm.AddTheme(ComponentFactory.Krypton.Toolkit.KryptonPalette palette,
+            string themeName, string themeType, string styleType,
+            string scintillaTheme, int iconsList, Color commonColor, Color commonColor2,
+            ToolStripRenderMode rendermode1, ToolStripRenderMode rendermode2,
+            string formHeader
+            ) // Adds a new custom theme
 ```
